@@ -10,7 +10,7 @@ const ScreenOne = ({ navigation }) => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Screen One</Text>
+      <Text style={[styles.text, {fontSize: 18, fontWeight: "600"}]}>Screen One</Text>
       <Text style={styles.text}>Counter: {counter}</Text>
       <TouchableOpacity onPress={handleScreen2Navigation} style={styles.buttonStyle}>
         <Text style={{ color: "#ffffff" }}>One To Two</Text>
